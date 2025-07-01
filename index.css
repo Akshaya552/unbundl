@@ -1,0 +1,416 @@
+body{
+    margin: 0px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background: var(--Beige-BK, rgba(255, 250, 245, 1));
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.dental-logo-img{
+    width: 70px;
+}
+
+.appointment-button{
+    margin-right: 15px;
+    background: rgba(248, 148, 63, 1);
+    border: 1px solid rgba(222, 111, 13, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 8px;
+    border-radius: 25px;
+    font-family: Roboto;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    width: auto;
+    cursor: pointer;
+}
+
+.appointment-image{
+    margin-right: 5px;
+    width: 20px;
+}
+
+.contact-number{
+    margin-right: 15px;
+   background: rgba(255, 255, 255, 1);
+   border: 1px solid var(--Brown, rgba(70, 37, 18, 1));
+    color:rgba(26, 26, 26, 1);
+    padding: 8px;
+    border-radius: 25px;
+    font-family: Roboto;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.contact-image{
+    margin-right: 5px;
+    width: 13px;
+}
+
+.doctor-details-container{
+    display: flex;
+    height: 60vh;
+    
+}
+
+.doctor-container{
+    background-image: url('https://res.cloudinary.com/dvhtvbdud/image/upload/v1751361646/image_zuwmt6.png');
+    background-size: cover;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.doctor-text-container{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%);
+    backdrop-filter: blur(15px);
+    width: 45%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+}
+
+.doctor-img{
+    width: 250px;
+    margin-left: 24%;
+    position: absolute;
+    align-self: flex-end;    
+}
+
+.heading{
+    font-family: Roboto;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.sub-heading{
+ font-family: Roboto;
+ font-size: 16px;
+ margin: 0px;   
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+
+.form-container{
+    background: rgba(255, 249, 244, 1);
+    width: 30%;
+    border: 1px solid var(--Strokes, rgba(255, 224, 196, 1));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: Roboto;
+}
+.form-heading{
+    font-size: 20px;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.form-subheading{
+    margin: 0px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgba(71, 71, 71, 1);
+}
+
+.input-box{
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid var(--Strokes, rgba(255, 224, 196, 1));
+    border-radius: 25px;
+    height: 34px;
+    padding-left: 15px;
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.recaptha-container{
+    display: flex;
+    align-items: center;
+}
+
+.captcha-box{
+    background: rgba(255, 255, 255, 1);
+    border-left: 1px solid var(--Strokes, rgba(255, 224, 196, 1));
+    border-top: 1px solid var(--Strokes, rgba(255, 224, 196, 1));
+    border-bottom: 1px solid var(--Strokes, rgba(255, 224, 196, 1));
+    border-right: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    height: 34px;
+    padding-left: 15px;
+    outline: none;
+    width: 75%;
+}
+
+.captha-number{
+    background: var(--Brown, rgba(70, 37, 18, 1));
+    color: var(--White, rgba(255, 255, 255, 1));
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 8px;
+    width: 22%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.terms-conditions{
+    font-size: 11.5px;
+    padding-top: 16px;
+    padding-left: 5px;
+    color: rgba(48, 48, 48, 1);
+}
+
+.stroke{
+    text-decoration: underline;
+}
+
+.consultation-button{
+    background: var(--Orange, rgba(245, 132, 32, 1));
+    border: none;
+    width: 393;
+    height: 38;
+    gap: 10px;
+    border-radius: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.icons-container{
+    display: flex;
+    align-items: center;
+    background: rgba(255, 249, 244, 1);
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style-type: none;
+    margin: 0px;
+    height: 50px;
+}
+.list-item{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    width: 26px;
+    margin-right: 6px;
+}
+.clinic-name{
+    font-family: Roboto;
+    color: rgba(0, 0, 0, 1);
+    font-weight: bold;
+    font-size: 14px;
+}
+.count-span{
+    color: var(--Orange, rgba(245, 132, 32, 1));
+    font-size: 14px;
+}
+
+.main-card-container{
+   display: flex;
+   justify-content: center;
+   padding-left: 30px;
+   padding-right: 30px;
+   list-style-type: none;
+}
+.card-heaidng{
+    padding-top: 30px;
+    font-family: Roboto;
+    font-size: 22px;
+    color: var(--Head-Text, rgba(26, 26, 26, 1));
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+.card-subheading{
+    font-family: Roboto;
+    font-size: 17px;
+    color: var(--Sub-Text, rgba(71, 71, 71, 1));
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 25px;
+}
+.card-container{
+    width: 600px;
+    border: 2px solid var(--Strokes, rgba(255, 224, 196, 1));
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+.tooth-img{
+    width: 300px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.text-card{
+    padding-left: 20px;
+    padding-right: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-heading{
+    font-family: Roboto;
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+.text-description{
+    font-family: Roboto;
+    color: var(--Sub-Text, rgba(71, 71, 71, 1));
+    margin: 0px;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+.unordered-list{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+.ul-item{
+    font-family: Roboto;
+    font-size: 14px;
+    color: var(--Sub-Text, rgba(71, 71, 71, 1));
+    
+}
+.price-text{
+    font-family: Roboto;
+    font-size: 16px;
+    margin: 0px;
+    color: var(--Orange, rgba(245, 132, 32, 1));
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.price{
+    font-family: Roboto;
+    font-size: 17px;
+    margin: 0px;
+    color: var(--Head-Text, rgba(26, 26, 26, 1));
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.free-button{
+  background: var(--Orange, rgba(245, 132, 32, 1));
+    border: none;
+    width: 200px;
+    height: 38;
+    gap: 10px;
+    border-radius: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 10px;
+    cursor: pointer;
+}
+.teeth-man{
+    width: 100%;
+}
+.ul-card-container{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+}
+.people-card-container{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.text-function-container{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+.name{
+    font-family: Roboto;
+    color: var(--Head-Text, rgba(26, 26, 26, 1));
+    font-size: 8px;
+    font-weight: 500;
+}
+.place{
+    font-family: Roboto;
+    color: var(--Orange, rgba(245, 132, 32, 1));
+    font-size: 8px;
+    font-weight: 500;
+}
+.doctors-group{
+    width: 400px;
+}
+.doctors-ul{
+    width: 40%;
+    padding-right: 20%;
+    padding-left: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+.d-list-item{
+    font-family: Roboto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plus-symbol{
+    width: 15px;
+}
+.main-dash-container{
+    display: flex;
+    width: 80%;
+    padding-bottom: 20px;
+}
+.specific-place{
+    font-family: Roboto;
+    color: rgba(119, 119, 119, 1);
+    font-size: 8px;
+    margin: 0px;
+}
+.man{
+    width: 200px;
+}
+.function-container{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.second-form-container{
+    background: rgba(255, 249, 244, 1);
+    width: 76%;
+    border: none;
+    border-radius: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: Roboto;
+}
+.center-align{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.row-conatienr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flexing{
+    width: 300px;
+}
